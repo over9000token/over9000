@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'SandsgreyHood';
+  src: url('../fonts/SANDSGREYHOODSEVEN-D4W0.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body { background: black; color: yellow; font-family: Arial, sans-serif; margin: 0; overflow: hidden; }
+.div-block-2 { background-image: url('images/over9000-bg.png'); background-position: 50% 0; background-size: cover; position: absolute; inset: 0; overflow: hidden; }
+.text-block { color: #fff; font-size: 64px; line-height: 100%; position: absolute; }
+.text-block.top-left { text-align: left; top: 32px; left: 32px; }
+.text-block.top-right { text-align: right; top: 32px; right: 32px; }
+.text-block.bottom-left { text-align: left; bottom: 32px; left: 32px; }
+.text-block.bottom-right { text-align: right; bottom: 32px; right: 32px; }
+.link-2, .link-3, .link-4 { color: #fff; font-family: SandsgreyHood, sans-serif; text-decoration: none; }
+.link-2:hover, .link-3:hover, .link-4:hover { text-decoration: underline; }
+@media screen and (max-width: 767px) {
+  .text-block { font-size: 36px; }
+  .link-2, .link-3, .link-4 { font-size: 44px; }
+}
+@media screen and (max-width: 479px) {
+  .text-block { font-size: 24px; }
+  .link-2, .link-3, .link-4 { font-size: 28px; }
+}
