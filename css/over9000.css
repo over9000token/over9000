@@ -1,17 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400;700&display=swap');
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron-bold {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* وزن بولد برای لینک‌ها */
+  font-style: normal;
+}
+
+.orbitron-regular {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* وزن معمولی برای بدنه */
+  font-style: normal;
+}
 
 body { 
-  font-family: 'Orbitron', sans-serif; 
   background: black; 
   color: yellow; 
   margin: 0; 
   overflow: hidden; 
-}
-
-h1, .text-block { 
-  font-family: 'Bangers', cursive; 
-  font-size: 64px; 
-  line-height: 100%; 
 }
 
 .div-block-2 { 
@@ -53,7 +64,6 @@ h1, .text-block {
 }
 
 .link-2, .link-3, .link-4 { 
-  font-family: 'Orbitron', sans-serif; 
   color: #fff; 
   text-decoration: none; 
 }
